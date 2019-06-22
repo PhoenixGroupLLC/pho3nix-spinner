@@ -2,12 +2,19 @@
 
 > ## 🛠 Status: Done
 
-# Pho3nix-element
+# Pho3nix-spinner
 
-Boilerplate for lit-element development
+Simple css loading animation.
 
 ## Example:
 
 ```HTML
-    <pho3nix-element></pho3nix-element>
+    <style>
+      pho3nix-spinner {
+        --ripple-size: 400px;
+        --ripple-color: lightblue;
+        --ripple-style: double; /* Any valid border-style */
+      }
+    </style>
+    <pho3nix-spinner></pho3nix-spinner>
 ```

@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Pho3nix-Element</title>
+    <title>pho3nix-spinner</title>
     <style>
       body {
         margin: 0;
@@ -14,21 +14,23 @@
         flex-direction: column;
         background: #555;
       }
-      pho3nix-element {
-        --bg-color: white;
+      pho3nix-spinner {
+        --ripple-size: 400px;
+        --ripple-color: lightblue;
+        --ripple-style: double;
       }
     </style>
   </head>
   <body>
-    <pho3nix-element></pho3nix-element>
+    <pho3nix-spinner></pho3nix-spinner>
     <noscript>
       Please enable JavaScript to view this website.
     </noscript>
     <!-- Load webcomponents-loader.js to check and load any polyfills your browser needs -->
     <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
     <script type="module">
-      import '/src/pho3nix-element.js';
-      // import '/build/esm-bundled/src/pho3nix-element.js'
+      import '/src/pho3nix-spinner.js';
+      // import '/build/esm-bundled/src/pho3nix-spinner.js'
     </script>
   </body>
 </html>
